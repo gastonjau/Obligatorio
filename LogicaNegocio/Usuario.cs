@@ -18,10 +18,23 @@ namespace LogicaNegocio
         private string _contrasenia;
         #endregion
 
+        public string Nombre
+        {
+            get { return _nombre; }
+        }
+        public string Apellido
+        {
+            get { return _apellido; }
+        }
+        public string Contrasenia
+        {
+            get { return _contrasenia; }
+        }
         public string Mail
         {
             get { return _mail; }
         }
+
 
         public Usuario(string nombre, string apellido, string mail, string contrasenia) 
         {
